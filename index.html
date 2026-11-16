@@ -1,0 +1,616 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#090B1B">
+
+    <title>SAMIRA | Beyond The Atom</title>
+
+    <meta name="description" content="قصة سميرة موسى، العالمة المصرية التي قررت أن تصادق الذرة وتغير العالم.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Background Effects -->
+    <div class="background-glow"></div>
+    <div class="particles" id="particles"></div>
+
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-atom">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <h2>SAMIRA<span>.</span></h2>
+        <p>BEYOND THE ATOM</p>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#home" class="logo">SAMIRA<span>.</span></a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">الرئيسية</a>
+            <a href="#journey">رحلتها</a>
+            <a href="#story">الحكاية</a>
+            <a href="#legacy">إرثها</a>
+            <a href="#quiz">اختبر معلوماتك</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="theme-toggle" id="themeToggle" aria-label="تغيير المظهر">
+                <i class="fa-solid fa-sun"></i>
+            </button>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Reading Progress -->
+    <div class="reading-progress">
+        <div id="progressBar"></div>
+    </div>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+                    <span class="status-dot"></span>
+                    THE STORY OF AN EXTRAORDINARY WOMAN
+                </div>
+
+                <p class="hero-date">1917 — 1952</p>
+
+                <h1>
+                    SHE DREAMED
+                    <span>BEYOND</span>
+                    LIMITS.
+                </h1>
+
+                <p class="hero-description">
+                    فتاة مصرية لم تكتفِ بالحلم بالمستحيل،
+                    بل قررت أن تذهب إليه بنفسها.
+                    تعرف على سميرة موسى، المرأة التي أرادت
+                    أن تجعل العلم في خدمة الإنسان.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#story" class="primary-btn">
+                        اكتشف الحكاية
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+
+                    <a href="#journey" class="secondary-btn">
+                        رحلتها عبر الزمن
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+
+                    <div>
+                        <strong>1917</strong>
+                        <span>عام الميلاد</span>
+                    </div>
+
+                    <div>
+                        <strong>1939</strong>
+                        <span>بداية التفوق الجامعي</span>
+                    </div>
+
+                    <div>
+                        <strong>35</strong>
+                        <span>عامًا من الحياة</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="orbit orbit-three"></div>
+
+                <div class="atom-center">
+                    <i class="fa-solid fa-atom"></i>
+                </div>
+
+                <div class="floating-card card-one">
+                    <i class="fa-solid fa-flask"></i>
+                    <span>SCIENCE</span>
+                </div>
+
+                <div class="floating-card card-two">
+                    <i class="fa-solid fa-brain"></i>
+                    <span>INNOVATION</span>
+                </div>
+
+                <div class="floating-card card-three">
+                    <i class="fa-solid fa-star"></i>
+                    <span>LEGACY</span>
+                </div>
+
+                <p class="visual-caption">A MIND WITHOUT LIMITS</p>
+
+            </div>
+
+            <a href="#intro" class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+
+        </section>
+
+        <!-- INTRO -->
+        <section class="intro section-padding" id="intro">
+
+            <div class="section-label">01 / THE BEGINNING</div>
+
+            <div class="intro-content">
+
+                <h2>
+                    NOT JUST A SCIENTIST.
+                    <span>A GAME CHANGER.</span>
+                </h2>
+
+                <p>
+                    من قرية صغيرة في محافظة الغربية إلى معامل الفيزياء النووية،
+                    حكاية امرأة لم تكتفِ بأن تحلم بالمستحيل، بل قررت أن تذهب إليه بنفسها!
+                </p>
+
+                <p>
+                    في وقت كان فيه كثيرون يرون أن أقصى طموح الفتاة هو الحصول
+                    على قدر مناسب من التعليم ثم انتظار ما تخبئه لها الحياة،
+                    كانت سميرة موسى لديها خطط أخرى تمامًا.
+                </p>
+
+                <p>
+                    لم تكن تبحث عن مكان آمن داخل حدود المألوف،
+                    بل كانت تستعد لدخول عالم الذرّة.
+                </p>
+
+                <div class="highlight-quote">
+                    <span class="quote-mark">“</span>
+                    العقول لا تُقاس بالنوع أو المكان الذي وُلدت فيه،
+                    وإنما بما تستطيع أن تصنعه.
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- TIMELINE -->
+        <section class="journey section-padding" id="journey">
+
+            <div class="section-heading">
+                <div class="section-label">02 / HER JOURNEY</div>
+                <h2>A SMALL TOWN. <span>A HUGE DREAM.</span></h2>
+                <p>كل إنجاز كبير بيبدأ بخطوة. ودي كانت خطوات سميرة.</p>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1917</div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span>THE BEGINNING</span>
+                        <h3>البداية من سنبو الكبرى</h3>
+                        <p>
+                            وُلدت سميرة موسى في الثالث من مارس عام 1917
+                            بقرية سنبو الكبرى، التابعة لمركز زفتى بمحافظة الغربية.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1939</div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span>FIRST ACHIEVEMENT</span>
+                        <h3>الأولى على دفعتها</h3>
+                        <p>
+                            حصلت على بكالوريوس العلوم من جامعة فؤاد الأول،
+                            وكانت الأولى على دفعتها في الفيزياء.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1940s</div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span>ACADEMIC SUCCESS</span>
+                        <h3>من طالبة إلى معيدة</h3>
+                        <p>
+                            واجهت اعتراضات على تعيينها بسبب كونها امرأة،
+                            لكن دعم أستاذها مصطفى مشرفة ساعدها في الحصول
+                            على حقها في التعيين بالجامعة.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1940s</div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span>THE NEXT LEVEL</span>
+                        <h3>رحلة إلى عالم الذرّة</h3>
+                        <p>
+                            واصلت دراستها وحصلت على الدكتوراه في الأشعة السينية
+                            وتأثيرها على المواد المختلفة.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1952</div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span>THE FINAL CHAPTER</span>
+                        <h3>رحيل مبكر وإرث باقٍ</h3>
+                        <p>
+                            توفيت في الولايات المتحدة في أغسطس 1952،
+                            عن عمر ناهز 35 عامًا.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- MAIN ARTICLE -->
+        <section class="story section-padding" id="story">
+
+            <div class="section-heading">
+                <div class="section-label">03 / THE FULL STORY</div>
+                <h2>THE WOMAN <span>BEHIND THE ATOM.</span></h2>
+                <p>مش مجرد تواريخ وأرقام... دي حكاية عقل رفض الحدود.</p>
+            </div>
+
+            <article class="article-content">
+
+                <div class="article-block">
+                    <span class="article-number">01</span>
+                    <h3>البداية.. من سنبو الكبرى إلى أحلام أكبر من حدود القرية</h3>
+
+                    <p>
+                        وُلدت سميرة موسى في الثالث من مارس عام 1917 بقرية
+                        سنبو الكبرى، التابعة لمركز زفتى بمحافظة الغربية.
+                        نشأت في أسرة مصرية، وكان والدها يتمتع بمكانة اجتماعية
+                        بين أهل قريته، ثم انتقلت معه إلى القاهرة لاستكمال تعليمها.
+                    </p>
+
+                    <p>
+                        ومنذ طفولتها، ظهرت عليها علامات النبوغ؛ فقد كانت
+                        محبة للقراءة، وحفظت أجزاءً من القرآن الكريم،
+                        وتميزت بذاكرة قوية وتفوق دراسي لافت.
+                    </p>
+
+                    <p>
+                        وبينما كان بعض الأطفال ينشغلون بألعابهم،
+                        كانت سميرة تنشغل بالكتب والأرقام.
+                        ويبدو أن الرياضيات لم تكن بالنسبة إليها مادة دراسية فحسب،
+                        بل كانت علاقة صداقة بدأت مبكرًا!
+                    </p>
+                </div>
+
+                <div class="article-block">
+                    <span class="article-number">02</span>
+                    <h3>أول تمرد.. حين اختارت العلوم!</h3>
+
+                    <p>
+                        لم تكن دراسة العلوم اختيارًا مألوفًا للفتيات في ذلك العصر،
+                        بل كانت بعض المجالات العلمية تُعامل وكأنها نادٍ خاص
+                        لا يُسمح للنساء بدخوله بسهولة.
+                    </p>
+
+                    <p>
+                        لكن سميرة لم تكن من النوع الذي ينتظر دعوة رسمية
+                        من المجتمع حتى يحقق حلمه!
+                    </p>
+
+                    <p>
+                        ورغم تفوقها الدراسي وإمكانية التحاقها بمجالات أخرى،
+                        أصرت على دخول كلية العلوم بجامعة فؤاد الأول،
+                        جامعة القاهرة حاليًا، لتدرس الفيزياء.
+                    </p>
+
+                    <p>
+                        وفي عام 1939 حصلت على بكالوريوس العلوم بتفوق،
+                        وكانت الأولى على دفعتها.
+                    </p>
+
+                    <p>
+                        لكن المفاجأة لم تكن في تفوقها وحده،
+                        بل في المعركة التي خاضتها بعد ذلك؛ إذ واجهت اعتراضًا
+                        على تعيينها في الجامعة بسبب كونها امرأة.
+                        وهنا ظهر دعم أستاذها العالم مصطفى مشرفة،
+                        الذي تمسك بحقها في التعيين، حتى أصبحت أول معيدة بكلية العلوم.
+                    </p>
+
+                    <div class="article-quote">
+                        إذا كان العلم لا يعرف التمييز،
+                        فلماذا يصر المجتمع على اختراعه؟
+                    </div>
+                </div>
+
+                <div class="article-block">
+                    <span class="article-number">03</span>
+                    <h3>من قاعات الجامعة إلى أسرار الذرّة</h3>
+
+                    <p>
+                        لم تتوقف سميرة عند الحصول على وظيفة جامعية،
+                        فقد واصلت دراستها وحصلت على درجة الماجستير،
+                        ثم سافرت إلى بريطانيا في بعثة علمية لدراسة الإشعاع النووي.
+                    </p>
+
+                    <p>
+                        وهناك حصلت على الدكتوراه في الأشعة السينية
+                        وتأثيرها على المواد المختلفة، وأنجزت أبحاثها
+                        في فترة قصيرة بصورة لفتت الانتباه إلى قدراتها العلمية.
+                    </p>
+
+                    <p>
+                        لم تكن تريد لقبًا علميًا يُضاف إلى اسمها،
+                        ولا شهادة تُعلّق على الحائط لتثير إعجاب الضيوف؛
+                        كانت تريد أن يكون للعلم أثر حقيقي في حياة الناس.
+                    </p>
+
+                    <p>
+                        وكان أحد أهم أحلامها أن تصبح التطبيقات الطبية للطاقة
+                        النووية متاحة بتكلفة مناسبة، خاصة في علاج مرض السرطان،
+                        الذي عانت والدتها منه.
+                    </p>
+
+                    <p>
+                        فبالنسبة إليها، لم تكن الذرّة مجرد موضوع بحثي معقد،
+                        بل كانت أملًا في إنقاذ حياة إنسان.
+                    </p>
+                </div>
+
+                <div class="article-block">
+                    <span class="article-number">04</span>
+                    <h3>العلم ليس للزينة.. بل لخدمة الإنسان</h3>
+
+                    <p>
+                        آمنت سميرة موسى بأن الطاقة النووية يجب أن تُستخدم
+                        في خدمة البشرية، لا في تدميرها.
+                    </p>
+
+                    <p>
+                        وسعت إلى نشر فكرة «الذرة من أجل السلام»،
+                        ونظمت مؤتمرًا بهذا الاسم في مصر،
+                        واهتمت بتشجيع البحث العلمي وتدريب العلماء المصريين.
+                    </p>
+
+                    <p>
+                        وكانت ترى أن امتلاك المعرفة العلمية ضرورة لأي دولة
+                        تريد أن تحمي استقلالها وتشارك في صناعة مستقبلها.
+                    </p>
+
+                    <p>
+                        كما حلمت بأن يصل العلاج النووي إلى الناس بتكلفة بسيطة،
+                        حتى لا يصبح العلاج امتيازًا للأثرياء وحدهم.
+                    </p>
+
+                    <div class="article-quote">
+                        فالعلم الذي لا يصل إلى الإنسان،
+                        مهما بلغ تعقيده، يظل إنجازًا ناقصًا.
+                    </div>
+                </div>
+
+                <div class="article-block">
+                    <span class="article-number">05</span>
+                    <h3>أمريكا تعرض.. ومصر تنتظر!</h3>
+
+                    <p>
+                        في عام 1952 سافرت سميرة موسى إلى الولايات المتحدة
+                        الأمريكية لاستكمال أبحاثها والتعرف على الإمكانات
+                        العلمية المتقدمة هناك.
+                    </p>
+
+                    <p>
+                        وأتيحت لها فرص للعمل والبقاء في الولايات المتحدة،
+                        لكنها كانت تتطلع إلى العودة إلى مصر،
+                        ونقل ما تعلمته إلى وطنها.
+                    </p>
+
+                    <p>
+                        لم يكن السفر بالنسبة إليها هروبًا من الجذور،
+                        بل وسيلة للعودة إليها بشيء أكبر.
+                    </p>
+
+                    <p>
+                        فقد كانت تؤمن أن مصر تستحق أن يكون لها مكان
+                        في مستقبل العلوم، وأن أبناءها قادرون على المشاركة
+                        في صناعة هذا المستقبل.
+                    </p>
+
+                    <div class="article-quote">
+                        ليس النجاح الحقيقي أن تصل إلى العالم وحدك،
+                        بل أن تفتح الطريق لمن يأتي بعدك.
+                    </div>
+                </div>
+
+                <div class="article-block">
+                    <span class="article-number">06</span>
+                    <h3>النهاية التي لم تُغلق باب الأسئلة</h3>
+
+                    <p>
+                        في أغسطس عام 1952، توفيت سميرة موسى في حادث سيارة
+                        بالولايات المتحدة، وهي في الخامسة والثلاثين من عمرها.
+                    </p>
+
+                    <p>
+                        وأثار الحادث الكثير من التساؤلات والروايات،
+                        وظهرت ادعاءات بأنه كان مدبرًا،
+                        لكن لا يوجد دليل حاسم يثبت فرضية الاغتيال،
+                        ولذلك ينبغي التعامل مع تلك الروايات بحذر،
+                        وعدم تحويل الشكوك إلى حقائق تاريخية.
+                    </p>
+
+                    <p>
+                        رحلت سميرة مبكرًا، قبل أن تكمل كل ما كانت تحلم به،
+                        لكن قصتها بقيت شاهدًا على عقل مصري استطاع
+                        أن يتجاوز حدود عصره.
+                    </p>
+                </div>
+
+            </article>
+
+        </section>
+
+        <!-- LEGACY -->
+        <section class="legacy section-padding" id="legacy">
+
+            <div class="section-label">04 / HER LEGACY</div>
+
+            <div class="legacy-content">
+
+                <span class="legacy-tag">MORE THAN A SCIENTIST</span>
+
+                <h2>
+                    SOME PEOPLE ARE BORN
+                    <span>TO BREAK LIMITS.</span>
+                </h2>
+
+                <p>
+                    لم تكن سميرة موسى مجرد امرأة درست الفيزياء النووية،
+                    بل كانت نموذجًا لشخص آمن بأن الظروف ليست حكمًا نهائيًا
+                    على المستقبل.
+                </p>
+
+                <p>
+                    ولم تجعل من كونها امرأة عائقًا، ولا من نشأتها
+                    في قرية صغيرة حدًا لطموحها، ولا من السفر إلى الخارج
+                    سببًا لنسيان وطنها.
+                </p>
+
+                <div class="final-quote">
+                    <span>“</span>
+                    لا تجعل حدود المكان الذي بدأت منه
+                    تحدد المسافة التي يمكنك الوصول إليها.
+                </div>
+
+                <p class="legacy-ending">
+                    بعض الناس يولدون في أماكن صغيرة،
+                    لكن أحلامهم لا تعرف كيف تكون صغيرة!
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- QUIZ -->
+        <section class="quiz-section section-padding" id="quiz">
+
+            <div class="section-heading">
+                <div class="section-label">05 / KNOWLEDGE CHALLENGE</div>
+                <h2>HOW MUCH <span>DO YOU KNOW?</span></h2>
+                <p>خلصت الحكاية؟ طيب نشوف كنت مركز ولا كنت بتعمل Scroll وخلاص! 👀</p>
+            </div>
+
+            <div class="quiz-container">
+
+                <div class="quiz-top">
+                    <span id="questionCounter">QUESTION 01 / 05</span>
+                    <span id="quizScore">SCORE: 0</span>
+                </div>
+
+                <div class="quiz-progress">
+                    <div id="quizProgress"></div>
+                </div>
+
+                <h3 id="questionText">في أي عام وُلدت سميرة موسى؟</h3>
+
+                <div class="quiz-options" id="quizOptions">
+
+                    <button class="quiz-option" data-answer="false">1910</button>
+                    <button class="quiz-option" data-answer="true">1917</button>
+                    <button class="quiz-option" data-answer="false">1920</button>
+                    <button class="quiz-option" data-answer="false">1925</button>
+
+                </div>
+
+                <div id="quizFeedback" class="quiz-feedback"></div>
+
+                <button class="next-question" id="nextQuestion" disabled>
+                    السؤال التالي
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- FINAL SECTION -->
+        <section class="final-section">
+
+            <div class="final-atom">
+                <i class="fa-solid fa-atom"></i>
+            </div>
+
+            <p>BEYOND THE ATOM. BEYOND THE LIMITS.</p>
+
+            <h2>HER STORY<br><span>IS STILL ALIVE.</span></h2>
+
+            <a href="#home" class="primary-btn">
+                العودة للبداية
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="#home" class="logo">SAMIRA<span>.</span></a>
+
+        <p>
+            A STORY OF SCIENCE, COURAGE & ENDLESS AMBITION.
+        </p>
+
+        <div class="footer-line"></div>
+
+        <span>© 2026 SAMIRA | BEYOND THE ATOM</span>
+
+        <span class="footer-credit">MADE WITH CURIOSITY.</span>
+
+    </footer>
+
+    <!-- Back To Top -->
+    <button id="backToTop" class="back-to-top" aria-label="العودة للأعلى">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
